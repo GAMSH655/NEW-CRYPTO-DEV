@@ -459,3 +459,175 @@
       font-size: medium;
      text-transform: capitalize;
   }
+  @media only screen and (max-width:768px){
+    .Mobileheader {
+       display: none;
+       background: rgb(2,0,36);
+       /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+       box-shadow:2px 2px 2px -3px black;
+       color: black;
+       position: absolute;
+       width: 100vw; 
+       animation-name: slidefromTop;
+       animation-duration: 5s;
+       animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    @keyframes slidefromTop {
+       0% { transform: translateY(-50px);} 
+    }
+    .PC-view , .buttonContainer{
+       display: none;
+    }
+    .mobile-UL{
+       display: grid;
+        grid-template-columns: repeat(3 , 1fr);  
+    }
+    #menuBtn , #cancelBTn{
+       display: block;
+    }
+    li {
+       color: black;
+       padding: 5px;
+    }
+    a:hover{
+        background-color:white;
+        transition:cubic-bezier(0.23, 1, 0.320, 1) all .5s;
+        color: black;
+        padding: 5px;
+    }
+
+   .numbes {
+       padding: 15px;
+       margin: 9px;
+       text-align: center;
+       font-size: 5rem;
+       font-family:sans-serif;
+   }
+   #numtext{
+   display: block;
+   font-size: medium;
+   text-transform: capitalize;
+   }
+   #img2{
+       position: relative;
+       right: 100px;
+   }
+   .createNft{
+       text-align: center;
+   }
+   .nftComponents , .cartoonDiv{
+       flex-wrap: wrap;
+   }
+   .cartoondiv1 ,.cartoondiv2,.cartoondiv3,.cartoondiv2 {
+       text-align: center;
+       font-size: 1rem;
+       color: white;
+       font-weight: bolder;
+   }
+   .cos , .cosmoicText  , .nftPrice {
+        margin: 8px;
+   }
+   #choice {
+        margin:9px;
+        padding: 5px;
+        font-size: 1rem;
+   }
+
+   table{
+       border: none;
+       color: white;
+       text-transform: capitalize;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+    }
+    th{
+        padding: 2px;
+        background-color: #2D1C3C;
+        border:none;
+        width: 50px;
+    }
+    td {
+       padding: 2px;
+       border: none;
+       width: 50px;
+    }
+    .FAQS{
+        margin-top: 50px;
+    }
+    #questions{
+        font-size: 1.5rem;
+    }
+    .questionContainer {
+        margin-top: 20px;
+    }
+    
+   .createContainer{
+      display: flex;
+      justify-content: baseline;
+       margin-top: 40px;
+       border-radius: 20px;
+   }
+           
+       .createContainer .createTExt{
+           text-align: center;
+           padding: 30px;
+           text-transform:capitalize;
+           font-weight: bolder;
+           font-family: sans-serif;
+           font-size: 2.5rem;
+
+       }
+       .createContainer #create {
+       margin-left: 120px;
+       width: 150px;
+       border-radius: 10px;
+       padding: 9px;
+       font-size: 1rem;
+       border: none;
+       margin-bottom: 30px;
+       }
+     
+.footer{
+  flex-wrap: wrap;
+}
+.seconFOoterDiv{
+  flex-wrap: wrap;
+}
+.quest1 {
+    font-size: 1.5rem;
+}   
+
+#img1{
+  position: relative;
+  left:200px;
+  z-index: -1;
+}
+#img2{
+  position: relative;
+  left:150px;
+  z-index: -1;
+}
+#img3{
+  position: relative;
+  left:90px;
+  z-index: -1;
+}
+#img3{
+  position: relative;
+  left:90px;
+  z-index: -1;
+}
+#img5{
+  position: relative;
+  right:190px;
+  z-index: -1;
+}
+#img6{
+  position: relative;
+  z-index: -1;
+  left: 40px;
+}
+   }
+
+   
