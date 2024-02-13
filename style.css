@@ -560,37 +560,6 @@
 .quest1 {
     font-size: 1.5rem;
 }   
-
-#img1{
-  position: relative;
-  left:200px;
-  z-index: -1;
-}
-#img2{
-  position: relative;
-  left:150px;
-  z-index: -1;
-}
-#img3{
-  position: relative;
-  left:90px;
-  z-index: -1;
-}
-#img3{
-  position: relative;
-  left:90px;
-  z-index: -1;
-}
-#img5{
-  position: relative;
-  right:190px;
-  z-index: -1;
-}
-#img6{
-  position: relative;
-  z-index: -1;
-  left: 40px;
-}
    }
 
    
