@@ -5,6 +5,9 @@
   body{
     background: #1E1D2E;
   }
+  section {
+    overflow: hidden;
+  }
   .header-container {
      display: flex;
      justify-content: space-around;
