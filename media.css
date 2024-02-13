@@ -1,4 +1,8 @@
 @media only screen and (max-width:768px){
+    
+  section {
+    overflow: hidden;
+  }
     .Mobileheader {
        display: none;
        background: rgb(2,0,36);
