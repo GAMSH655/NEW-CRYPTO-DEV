@@ -34,6 +34,11 @@
         color: black;
         padding: 5px;
     }
+    #overLappingImg{
+       height: 200px;
+       width: 300px;
+       margin-left: 50px;
+    }
 
    .numbes {
        padding: 15px;
@@ -95,7 +100,7 @@
         margin-top: 50px;
     }
     #questions{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .questionContainer {
         margin-top: 20px;
@@ -114,7 +119,7 @@
            text-transform:capitalize;
            font-weight: bolder;
            font-family: sans-serif;
-           font-size: 2.5rem;
+           font-size: 1.5rem;
 
        }
        .createContainer #create {
@@ -126,47 +131,17 @@
        border: none;
        margin-bottom: 30px;
        }
-     
-.footer{
-  flex-wrap: wrap;
-}
-.seconFOoterDiv{
-  flex-wrap: wrap;
-}
-.quest1 {
-    font-size: 1.5rem;
-}   
+          
+      .footer{
+        flex-wrap: wrap;
+      }
+      .seconFOoterDiv{
+        flex-wrap: wrap;
+      }
+      .quest1 {
+          font-size: 1.5rem;
+      }   
 
-#img1{
-  position: relative;
-  left:200px;
-  z-index: -1;
-}
-#img2{
-  position: relative;
-  left:150px;
-  z-index: -1;
-}
-#img3{
-  position: relative;
-  left:90px;
-  z-index: -1;
-}
-#img3{
-  position: relative;
-  left:90px;
-  z-index: -1;
-}
-#img5{
-  position: relative;
-  right:190px;
-  z-index: -1;
-}
-#img6{
-  position: relative;
-  z-index: -1;
-  left: 40px;
-}
    }
 
    

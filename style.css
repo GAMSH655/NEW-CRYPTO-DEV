@@ -99,36 +99,6 @@
      margin-top: 30px;
      margin-right: 50px;
   }
-  #img1{
-     position: relative;
-     left:200px;
-     z-index: -1;
-  }
-  #img2{
-     position: relative;
-     left:150px;
-     z-index: -1;
-  }
-  #img3{
-     position: relative;
-     left:90px;
-     z-index: -1;
-  }
-  #img3{
-     position: relative;
-     left:90px;
-     z-index: -1;
-  }
-  #img5{
-     position: relative;
-     right:190px;
-     z-index: -1;
-  }
-  #img6{
-     position: relative;
-     z-index: -1;
-     left: 40px;
-  }
   .ExtrabuttonContainer{
      display: flex;
      justify-content: center;
@@ -233,13 +203,6 @@
       background: #2D1C3C;
       border-radius: 10px;
       perspective: 150rem;
-    }
-    .cartoondiv1:hover{
-     transition-duration: .5s;
-      transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
-      transition-property:all;
-     transform: rotateY(180deg);
-    
     }
     #cart1{
       height: 200px;
@@ -518,7 +481,7 @@
    .nftComponents , .cartoonDiv{
        flex-wrap: wrap;
    }
-   .cartoondiv1 ,.cartoondiv2,.cartoondiv3,.cartoondiv2 {
+   .cartoondiv1 ,.cartoondiv2,.cartoondiv3,.cartoondiv4{
        text-align: center;
        font-size: 1rem;
        color: white;
