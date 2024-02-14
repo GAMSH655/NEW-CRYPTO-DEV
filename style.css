@@ -268,68 +268,43 @@
      border: none;
      width: 150px;
   }
-  .questionContainer{
-   background-color: #1E1D2E;
-   color: white;
+  .accordion{
+   margin-top: 30px;
   }
-  .accordion-Header{
-  display: flex;
-  justify-content: space-between;
-  background-color: #2A2444;
-  margin: 10px;
+  .accordion .contentBox{
+     position: relative;
+     margin: 10px 20px;
+  }
+  .accordion .contentBox .label {
+  position: relative;
   padding: 10px;
-  
+  background-color: #373466;
+  color: #fff;
+  font-weight: bolder;
   }
-  .accordion-Header .active{
-   display: block;
-   background-color: red;
+  .accordion .contentBox .label::before{
+  content: "+"; 
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
   }
-  #questions{
-      text-align: center;
-      font-size: 2rem;
-      font-weight: bolder;
-      text-transform: capitalize;
-       text-decoration: none;
-       color: white;
-       padding-top: 10px;
+  .accordion .contentBox.active .label::before{ 
+     content: "-";
   }
-  #plusbtn{
-     width: 100px;
-     border:none;
-     padding: 10px;
-     border-radius: 10px;
-     outline: none;
-     font-size: medium;
-     background-color:#1F1E33;
-     color: white;
-  }
-  .active .AnswersContainer{
-     display: block;
-  }
-  .quest1{
-     font-size: 1.5rem;
-     color: white;
-  }
-  .AnswersContainer{
-      word-spacing: 5px;
+  .accordion .contentBox .content {
+      position: relative; 
+      background-color: ;
+      overflow: hidden;
+      transition: 0.5s;
+      height: 0;
+      overflow-y: auto; 
       color: white;
-      padding: 15px;
       line-height: 30px;
-      display:none;
-  
-  
-      animation-name: slideFromTop;
-      animation-duration: 5s;
-      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
-      animation-direction: alternate;
   }
-  @keyframes slideFromTop{
-   0% {transform: translateY(-5px);}
-  }
-  
-  .active .AnswersContainer{
-     display: none;
-     height: 500px;
+  .accordion .contentBox.active .content{
+  height: 150px;
+  padding: 10px;
   }
   .createContainer{
       background-color:  rgba(45, 28, 60, 1);

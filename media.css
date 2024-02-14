@@ -100,16 +100,7 @@
        border: none;
        width: 50px;
     }
-    .FAQS{
-        margin-top: 50px;
-    }
-    #questions{
-        font-size: 1rem;
-    }
-    .questionContainer {
-        margin-top: 20px;
-    }
-    
+  
    .createContainer{
       display: flex;
       justify-content: baseline;
@@ -145,7 +136,9 @@
       .quest1 {
           font-size: 1.5rem;
       }   
-
+       .accordion {
+      
+       }
    }
 
    
