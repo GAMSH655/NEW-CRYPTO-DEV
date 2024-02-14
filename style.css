@@ -4,6 +4,7 @@
   }
   body{
     background: #1E1D2E;
+    color: white;
   }
   section {
     overflow: hidden;
@@ -294,7 +295,6 @@
   }
   .accordion .contentBox .content {
       position: relative; 
-      background-color: ;
       overflow: hidden;
       transition: 0.5s;
       height: 0;
